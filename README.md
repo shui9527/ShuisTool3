@@ -119,4 +119,6 @@ python backend/main.py
 
 ## License
 
-Apache License 2.0（见仓库根目录 `LICENSE`）
+GNU General Public License v3.0（GPL-3.0，见仓库根目录 `LICENSE`）
+
+> 使用、分发或修改本项目及其衍生作品时，须以 GPL-3.0 开源并保留本声明。
