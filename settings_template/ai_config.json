@@ -1,0 +1,50 @@
+{
+    "enabled": false,
+    "provider": "openai",
+    "base_url": "https://api.openai.com/v1",
+    "api_key": "",
+    "model": "gpt-4o-mini",
+    "temperature": 0.7,
+    "max_tokens": 80,
+    "persona": "host",
+    "system_prompt": "",
+    "target_words": 20,
+    "max_reply_len": 20,
+    "forbidden_check": true,
+    "trigger": {
+        "prefixEnabled": false,
+        "prefixes": [],
+        "keywordEnabled": false,
+        "keywords": [],
+        "allEnabled": false,
+        "probability": 100,
+        "userBlacklist": []
+    },
+    "throttle": {
+        "globalCool": 30,
+        "userCool": 60,
+        "perMinute": 10
+    },
+    "context": {
+        "mode": "B",
+        "window": 4,
+        "globalWindow": 15,
+        "expireMinutes": 5,
+        "withUsername": true,
+        "budget": 1200,
+        "maxInputLen": 100,
+        "dedupeSeconds": 60
+    },
+    "call": {
+        "concurrency": 1,
+        "timeout": 90,
+        "retry": 1,
+        "keep_alive": 30,
+        "thinking": "auto"
+    },
+    "filter": {
+        "triggerBlacklist": [],
+        "replyBlacklist": []
+    },
+    "persona_prompts": {}
+}

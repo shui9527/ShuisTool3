@@ -1,0 +1,1 @@
+function i(t){return t?typeof t=="string"?t:t.name||"":""}function u(t){return!t||typeof t=="string"?"":t.singer||""}function s(t){return!t||typeof t=="string"?"pending":t.status||"pending"}function f(t){const n=i(t);if(!n)return n;let e="",r=String(n).trim();for(;r!==e;)e=r,r=r.replace(/\s*[（(【][^()（）【】]*[)）】]\s*$/,"").trim();return r}export{u as a,s as b,i as e,f};

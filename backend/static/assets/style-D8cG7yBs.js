@@ -1,0 +1,1 @@
+function o(e,s){const c=Math.max(0,Math.min(100,Number(s)||0))/100,t=e.replace("#",""),n=t.length===3?t.split("").map(a=>a+a).join(""):t.padEnd(6,"0"),l=parseInt(n.slice(0,2),16),p=parseInt(n.slice(2,4),16),r=parseInt(n.slice(4,6),16);return`rgba(${l}, ${p}, ${r}, ${c})`}export{o as a};

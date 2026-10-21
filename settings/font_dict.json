@@ -1,0 +1,10 @@
+[
+  {"name": "微软雅黑", "value": "Microsoft YaHei, sans-serif"},
+  {"name": "黑体", "value": "SimHei, sans-serif"},
+  {"name": "隶书", "value": "LiSu, serif"},
+  {"name": "幼圆", "value": "YouYuan, sans-serif"},
+  {"name": "Arial", "value": "Arial, Helvetica, sans-serif"},
+  {"name": "Times New Roman", "value": "Times New Roman, Times, serif"},
+  {"name": "Courier New", "value": "Courier New, Courier, monospace"},
+  {"name": "Verdana", "value": "Verdana, Geneva, sans-serif"}
+]
