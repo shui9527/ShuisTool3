@@ -87,7 +87,7 @@ python backend/main.py
 
 ### 3. 使用各功能
 
-- **弹幕排队 / 点歌**：观众在直播间发送配置好的口令（如「排队」「点歌 十年」）即自动入队。点歌功能需搭配LX Music使用，https://github.com/lyswhut/lx-music-desktop
+- **弹幕排队 / 点歌**：观众在直播间发送配置好的口令（如「排队」「点歌 十年」）即自动入队。点歌功能需搭配LX Music使用，LX Music链接：https://github.com/lyswhut/lx-music-desktop
 - **自动刷屏 / 自动答谢**：在「自动刷屏」页配置定时弹幕内容、答谢话术（礼物 / 舰长 / 醒目留言）。
 - **AI 弹幕聊天**：
   1. 打开「AI 聊天」页，开启「AI 自动回复」总开关；
